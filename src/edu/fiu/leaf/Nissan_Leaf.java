@@ -3,13 +3,11 @@
  */
 package edu.fiu.leaf;
 
-import edu.fiu.sysdesign.SelfCheckCapable;
-
 /**
  * @author brian
  *
  */
-public abstract class Nissan_Leaf implements SelfCheckCapable {
+public class Nissan_Leaf {
 
 	 String brand;
 	 String five_seats;
@@ -52,6 +50,11 @@ public abstract class Nissan_Leaf implements SelfCheckCapable {
 		myLeaf.runSelfCheck();
 		Motor  myMotor = new Motor();
 		myMotor.runSelfCheck();
+	}
+
+	private void runSelfCheck() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

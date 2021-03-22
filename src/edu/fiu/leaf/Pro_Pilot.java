@@ -3,19 +3,22 @@
  */
 package edu.fiu.leaf;
 
+import edu.fiu.sysdesign.SelfCheckCapable;
+import edu.fiu.sysdesign.SelfCheckUtils;
+
 /**
  * @author brian
  *
  */
-public class Nissan_Leaf implements SelfCheckCapable {
+public class Pro_Pilot implements SelfCheckCapable {
 	
-	string front_left_sensor;
-	string front_right_sensor;
-	string front_center_sensor;
-	string back_left_sensor;
-	string back_center_sensor;
-	string back_center_sensor;
-	string rear_view_camera_sensor;
+	String front_left_sensor;
+	String front_right_sensor;
+	String front_center_sensor;
+	String back_left_sensor;
+	String back_right_sensor;
+	String back_center_sensor;
+	String rear_view_camera_sensor;
 	
 	/** 
 	 * measure_distance method measures distance between road objects and car
