@@ -15,6 +15,7 @@ package edu.fiu.sysdesign;
 import java.util.ArrayList;
 import java.util.List;
 
+import edu.fiu.leaf.Battery;
 import edu.fiu.leaf.Nissan_Leaf;
 import edu.fiu.leaf.Pro_Pilot;
 
@@ -216,6 +217,11 @@ public class SelfCheckUtils {
 			// TODO Auto-generated method stub
 			return SelfCheckUtils.basicSelfCheckRunner(this);
 		}
+	}
+
+	public static boolean basicSelfCheckRunner(Battery battery) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 	
 }

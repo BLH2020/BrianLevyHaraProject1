@@ -15,6 +15,18 @@ public class Battery implements SelfCheckCapable {
 	String lithium;
 	String sixty_six_kWh_power_voltage;
 	
+	/** 
+	 * power method provides energy to the motors and 
+	 * the Nissan_leaf electronics
+	 */
+	void power () {
+		
+	}
+	
+	/**
+	 * stores_electricty method stores energy in battery
+	 * for later use
+	 */
 	
 	@Override
 	public String getComponentName() {
