@@ -28,6 +28,10 @@ public class Battery implements SelfCheckCapable {
 	 * for later use
 	 */
 	
+	void stores_electricity() {
+		
+	}
+	
 	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub

@@ -18,6 +18,8 @@ import java.util.List;
 import edu.fiu.leaf.Battery;
 import edu.fiu.leaf.Nissan_Leaf;
 import edu.fiu.leaf.Pro_Pilot;
+import edu.fiu.leaf.Sensor;
+import edu.fiu.leaf.Steering;
 
 /**
  * This will essentially be a class of Static methods that you can 
@@ -220,6 +222,16 @@ public class SelfCheckUtils {
 	}
 
 	public static boolean basicSelfCheckRunner(Battery battery) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public static boolean basicSelfCheckRunner(Steering steering) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public static boolean basicSelfCheckRunner(Sensor sensor) {
 		// TODO Auto-generated method stub
 		return false;
 	}

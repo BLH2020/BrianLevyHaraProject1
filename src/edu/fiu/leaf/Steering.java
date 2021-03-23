@@ -3,7 +3,6 @@
  */
 package edu.fiu.leaf;
 
-import edu.fiu.sysdesign.Pro_Pilot;
 import edu.fiu.sysdesign.SelfCheckCapable;
 import edu.fiu.sysdesign.SelfCheckUtils;
 
@@ -12,10 +11,9 @@ import edu.fiu.sysdesign.SelfCheckUtils;
  * @param <Steering>
  *
  */
-public class Steering<Steering> implements SelfCheckCapable {
+public class Steering implements SelfCheckCapable {
 
 
-    private static final Pro_Pilot Steering = null;
 	String power_steering;
 	
     /**

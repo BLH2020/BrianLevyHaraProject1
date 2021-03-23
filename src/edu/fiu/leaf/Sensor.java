@@ -10,19 +10,9 @@ import edu.fiu.sysdesign.SelfCheckUtils;
  * @author brian
  *
  */
-public class Sensor {
 
-	/**
-	 * @param <Sensor>
-	 * @param <Sensor>
-	 * @param args
-	 */
 	public class Sensor implements SelfCheckCapable {
-		
-	
-		
-		private static final edu.fiu.sysdesign.sensor
-		
+				
 		String front_left_sensor;
 		String front_right_sensor;
 		String front_center_sensor;
@@ -70,7 +60,7 @@ public class Sensor {
 		@Override
 		public boolean runSelfCheck() {
 			// TODO Auto-generated method stub
-			return SelfCheckUtils.basicSelfCheckRunner(Sensor);
+			return SelfCheckUtils.basicSelfCheckRunner(this);
 		}
 		
 	}
