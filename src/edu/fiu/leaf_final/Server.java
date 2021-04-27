@@ -14,7 +14,7 @@ public class Server implements SelfCheckCapable {
 	public Object download_update;
 
 	public Server() {
-		myleaf = new NissanLeaf();
+	//	myleaf = new NissanLeaf();
 
 	}
 

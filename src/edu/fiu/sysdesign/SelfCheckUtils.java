@@ -91,12 +91,12 @@ public class SelfCheckUtils {
 	 * From inside the Test class (e.g. from runSelfCheck):
 	 *    SelfCheckUtils.basicSelfCheckRunner(this);
 	 *    
-	 * @param pro_Pilot the item to be tested
+	 * @param i the item to be tested
 	 * @return the colorized version of the run. Colors may not show in all terminals
 	 */
-	public static boolean basicSelfCheckRunner(Pro_Pilot pro_Pilot) {
-		boolean result = pro_Pilot.selfCheck();
-		System.out.println("Checking " + pro_Pilot.getComponentName() + "... " + prettify(result));
+	public static boolean basicSelfCheckRunner(SelfCheckCapable i) {
+		boolean result = i.selfCheck();
+		System.out.println("Checking " + i.getComponentName() + "... " + prettify(result));
 		return result;
 	}
 
